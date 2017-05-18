@@ -1,0 +1,19 @@
+{
+  "name": "grunttest",
+  "version": "1.0.0",
+  "description": "test to see if I can get grunt working",
+  "main": "index.html",
+  "scripts": {
+    "test": "testgrunt"
+  },
+  "author": "Adam Jones",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "semver": "^5.3.0", 
+    "time-grunt": "^1.4.0"
+  }
+}

@@ -1,0 +1,83 @@
+/* _navigation.scss start */
+
+.sub-nav {
+}
+
+.sub-nav ul {
+	border-right: 1px solid #ced9e6;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	font-size:1em;
+	list-style-type: none;
+}
+
+.sub-nav ul li {
+	width: 100%;
+	background:none;
+	padding:0px;
+	margin:0px;
+	list-style-type: none;
+}
+
+.sub-nav ul li a {
+	color: #191919;
+	display: block;
+	border-bottom: 1px solid #ced9e6;
+	padding: 10px 10px 10px 15px;
+}
+
+.sub-nav ul li.nav-top-header a {
+  	background: #596782;
+	color: $white;
+	font-size: 1.1em;
+	font-weight: 700;
+  	padding: 10px;
+}
+
+.sub-nav ul li.nav-header a {
+  	background: #f1f1f1;
+  	color: #596782;
+	font-size: 1em;
+  	padding: 10px;
+	/*font-weight: 700;*/
+}
+
+.sub-nav ul li.nav-inner a {
+	padding: 10px 10px 10px 30px;
+	color: #1e3378;
+    font-weight:700;
+}
+
+.sub-nav ul li .currentbranch0 a, .sub-nav ul li a:hover, .sub-nav ul li a.active {
+	color: $white;
+	text-decoration: none;
+	background: #596782;
+}
+
+.sub-nav ul li ul.multilevel-linkul-0 {
+	padding: 0px !important;
+	margin:0px;
+}
+
+.sub-nav ul li ul.multilevel-linkul-0 li a {
+	padding-left:30px;
+}
+
+.sub-nav-drop {
+	display: none;
+}
+.sub-nav-drop .form-control {
+	clear:left;
+	width: 100%;
+	border-radius: 0px;
+	-webkit-appearance: none;
+	border: none;
+	height: 40px;
+	color: #191919;
+	background: $white url(/media/system-files/style-assets/images/global/arrowdown.png) right center no-repeat;
+	border: 1px solid #ced9e6;
+	margin-top: 10px;
+}
+
+/* _navigation.scss end */

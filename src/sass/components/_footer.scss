@@ -1,0 +1,118 @@
+/****** _Footer.scss Styles Start ******/
+
+footer {
+    background:$blue;
+    margin-top:40px;
+}
+
+footer span.footer-heading {
+    font-size:1em;
+    font-weight:400;
+    font-family: 'Roboto Slab', serif;
+    color:#16c1f3;
+    padding:0px;
+    margin:30px 0px 0px 10px;
+	display:block;
+    text-transform: uppercase;
+}
+
+footer ul {
+    float:left;
+    padding:0px;
+    list-style-type:none;
+    margin:20px 20px 0px 10px;
+    line-height:18px;
+}
+
+footer ul.stay-connected {
+    position:relative;
+}
+
+footer ul li {
+    color:#fff;
+    margin-bottom:10px;
+}
+
+footer ul.stay-connected li {
+    position:relative;
+    margin-bottom:15px;
+}
+
+footer ul.stay-connected li a {
+    display:block;
+    margin-left:35px;
+}
+
+
+footer ul.stay-connected li span a {
+    margin-left:0px;
+}
+
+footer ul li span {
+    position:absolute;
+    top:-4px;
+}
+
+footer a {
+    color:#fff;
+     transition: all ease-in-out 0.2s;
+}
+
+footer a:hover {
+    color:#feea16;
+    transition: all ease-in-out 0.2s;
+}
+
+footer .logos {
+    clear:both;
+    float:right;
+    margin-bottom:20px;
+}
+
+footer .logos img {
+    float:left;
+    display:block;
+    margin-right:50px;
+    margin-top:20px;
+}
+
+footer .footer-bottom {
+    background: #596782;
+    height:50px;
+    width:100%;
+    color:#fff;
+    font-size:0.8em;
+}
+
+
+
+footer .footer-bottom .bottom-left {
+    float:left;
+    margin-top:19px;
+    margin-left:5px;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 750px) {
+    footer .footer-bottom .bottom-left {
+    margin-left: 60px;
+    }
+}
+
+footer .footer-bottom .bottom-right {
+    float:right;
+    margin-top:19px;
+    margin-right:5px;
+}
+
+.footer-bottom svg{
+    height: 50px;
+    position: absolute;
+}
+
+footer .fa{
+    font-size: 2em;
+}
+
+/****** _Footer.scc Styles end ******/
