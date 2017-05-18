@@ -1053,20 +1053,6 @@ header.dynamic-header-with-sub-nav .secondary-nav ul {
   width: 100%;
 }
 
-header.dynamic-header-with-sub-nav .secondary-nav ul li {
-  text-transform: none;
-  font-size: 0.9em;
-  margin: 3px 0px 0px 0px;
-}
-
-header.dynamic-header-with-sub-nav .secondary-nav ul li.display-scroll {
-  display: block;
-}
-
-header.dynamic-header-with-sub-nav .secondary-nav ul li a {
-  margin: 0px 15px;
-}
-
 /* _header.scss end */
 /****** _Footer.scss Styles Start ******/
 footer {
